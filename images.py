@@ -1,3 +1,5 @@
+# Description: Script para capturar imágenes de un objeto con la cámara de la computadora.
+
 import cv2
 import os
 
@@ -38,5 +40,4 @@ def capture_images(object_name, save_dir, num_images=1600):
 if __name__ == "__main__":
     object_name = 'clavo'  # Nombre del objeto
     save_dir = './dataset/clavo/'  # Directorio donde se guardarán las imágenes
-    
     capture_images(object_name, save_dir)
